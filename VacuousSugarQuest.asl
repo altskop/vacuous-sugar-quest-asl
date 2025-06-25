@@ -13,6 +13,10 @@ state("vacuoussugarquest")
 	bool has_sugar : "VacuousSugarQuest.exe", 0x5CAF540, 0x310, 0x188, 0x38, 0x68, 0x28, 0x68;
 	bool at_summit : "VacuousSugarQuest.exe", 0x5CAF540, 0x310, 0x188, 0x38, 0x68, 0x28, 0x80;
 }
+
+startup {
+	timer.CurrentTimingMethod = TimingMethod.GameTime;
+}
  
 start
 {
