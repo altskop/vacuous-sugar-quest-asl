@@ -17,6 +17,10 @@ state("vacuoussugarquest")
 startup {
 	timer.CurrentTimingMethod = TimingMethod.GameTime;
 }
+
+isLoading
+{	return false;
+}
  
 start
 {
